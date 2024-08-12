@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body { 
+    min-height: 100vh; 
+}
+ 
+/* --------------------------------------------- */
+
+main {
+    background-image: url(../image/fondoBienvenida.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo > h1 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.titulo > h1 > img {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botones > button {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.botones > button:hover {
+    border: solid black 3px;
+}
+
+.botones > button > a {
+   text-decoration: none;
+   color: black;
+   font-size: medium;
+   font-weight: bolder;
+}
+
+.botones > button > a:hover {
+    color: red;
+}
+
+.seccion-bienvenida {
+    background-color: beige;
+    padding: 40px;
+    border-radius: 10px;
+    border: solid 5px black;
+}

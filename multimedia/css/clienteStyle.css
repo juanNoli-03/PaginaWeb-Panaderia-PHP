@@ -1,0 +1,80 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+
+    background-image: url(../image/fondoInicioSesion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+ 
+}
+/* --------------------------------------------- */
+
+.form-log form {
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    border: solid 5px black;
+    color: rgb(0, 0, 0);
+
+}
+.form-log form h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+
+}
+.form-log form .controls{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.473);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+
+}
+.form-log form p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.form-log form a{
+    color: white;
+    text-decoration: none;
+
+}
+.form-log form a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+.form-log form .botons{
+    width: 100%;
+    background-color: rgb(0, 136, 255);
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+
+}
+.form-log form .botons:hover{
+    box-shadow: 0px 0px 25px rgb(0, 136, 255);
+    transition: 0.5s;
+
+}
